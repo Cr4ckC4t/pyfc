@@ -82,7 +82,7 @@ class fc:
 	"""
 	@staticmethod
 	def clear_screen(mode=2):
-		print(f'\u001b[{mode}J')
+		print(f'\u001b[{mode}J\u001b[{0};{0}H')
 
 	# Clear line
 	""" Clear the line
